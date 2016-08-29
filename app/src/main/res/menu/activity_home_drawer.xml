@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sms"
+            android:icon="@drawable/ic_menu_sms"
+            android:title="@string/menu_sms"/>
+        <item
+            android:id="@+id/nav_per_notes"
+            android:icon="@drawable/ic_menu_per_note"
+            android:title="@string/menu_per_note"/>
+        <item
+            android:id="@+id/nav_group"
+            android:icon="@drawable/ic_menu_group"
+            android:title="@string/menu_group_msg"/>
+        <item
+            android:id="@+id/nav_flash"
+            android:icon="@drawable/ic_menu_flash"
+            android:title="@string/menu_flash"/>
+    </group>
+
+    <item android:title="@string/menu_group">
+        <menu>
+            <item
+                android:icon="@drawable/ic_add"
+                android:title="@string/menu_create_group"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_others">
+        <menu>
+            <item
+                android:icon="@drawable/ic_settings"
+                android:title="@string/menu_action_setting"/>
+            <item
+                android:icon="@drawable/ic_android_us"
+                android:title="@string/menu_action_about_us"/>
+        </menu>
+    </item>
+
+
+</menu>

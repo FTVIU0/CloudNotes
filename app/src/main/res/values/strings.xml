@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CloudNotes</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="txt_user_default">登陆/注册</string>
+    <string name="menu_sms">消息中心</string>
+    <string name="menu_per_note">个人笔记</string>
+    <string name="menu_group_msg">团队动态</string>
+    <string name="menu_flash">快捷方式</string>
+    <string name="menu_action_read">标为已读</string>
+    <string name="menu_action_filter">消息过滤</string>
+    <string name="menu_action_sync">同步</string>
+    <string name="menu_action_sort">排序</string>
+    <string name="menu_action_options">查看选项</string>
+    <string name="menu_action_add">添加</string>
+    <string name="menu_others">其他</string>
+    <string name="menu_action_setting">设置</string>
+    <string name="menu_action_about_us">关于我们</string>
+    <string name="menu_group">群组</string>
+    <string name="menu_create_group">创建团队和群组</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
