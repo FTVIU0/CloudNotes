@@ -8,4 +8,6 @@
     <dimen name="fab_margin">5dp</dimen>
     <dimen name="textview_user_padding">12dp</dimen>
     <dimen name="textsize_user">18sp</dimen>
+    <dimen name="activity_padding_left">5dp</dimen>
+    <dimen name="activity_padding_right">5dp</dimen>
 </resources>

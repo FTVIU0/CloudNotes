@@ -9,6 +9,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import com.nlte.cloudnotes.fragment.FlashFragment;
@@ -55,7 +56,13 @@ public class HomeActivity extends AppCompatActivity
         }
     }
 
-//    @Override
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        System.out.println("Act++++++++++");
+        return super.onPrepareOptionsMenu(menu);
+    }
+
+    //    @Override
 //    public boolean onCreateOptionsMenu(Menu menu) {
 //        // Inflate the menu; this adds items to the action bar if it is present.
 //        getMenuInflater().inflate(R.menu.hom, menu);
